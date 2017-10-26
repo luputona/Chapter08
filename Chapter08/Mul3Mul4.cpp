@@ -1,0 +1,16 @@
+#include"stdafx.h"
+
+void main8()
+{
+	int num = 0;
+
+	for ( num = 1;  num < 100; num ++)
+	{
+		if (num % 3 == 0|| num % 4==0)
+		{
+			printf("3또는 4의 배수 : %d \n", num);
+		}
+	}
+
+
+}
